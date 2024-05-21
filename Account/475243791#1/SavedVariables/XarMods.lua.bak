@@ -1,0 +1,11 @@
+
+XarModsDB = {
+	["profileKeys"] = {
+		["Флексотрон - Пламегор"] = "Default",
+		["Триксес - Пламегор"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

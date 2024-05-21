@@ -1,0 +1,8 @@
+Version: 1
+Frame: RXPFrame
+FrameLevel: 1
+Anchor: LEFT
+X: 2
+Y: 35
+W: 235
+H: 28

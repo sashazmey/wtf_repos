@@ -1,0 +1,73 @@
+VER 3 0000000001000006 "111" "134400"
+/click StaticPopup1Button1
+END
+VER 3 000000000100000A "asd" "134400"
+/run getRunes()
+END
+VER 3 0000000001000004 "coil" "134400"
+#showtooltip Death Coil
+/startattack
+/cast Death Coil
+/cast Rune Strike
+END
+VER 3 0000000001000011 "dd" "134400"
+#showtooltip Death and Decay
+/cast [@cursor]Death and Decay
+END
+VER 3 000000000100000C "EMERGENCY HEAL" "134400"
+/cast Raise Dead
+/cast Death Pact
+END
+VER 3 0000000001000012 "grip" "134400"
+/cast [@mouseover] Death Grip
+END
+VER 3 0000000001000001 "lf guild" "132102"
+/1 Mage LF PVE Guild. Interested in dungeons / raids / rep farming. No good gear so far (SF tailor/enchanter almost capped)
+END
+VER 3 000000000100000F "mo icy touch" "134400"
+#showtooltip
+/cast [@mouseover] Icy Touch(Rank 5)
+END
+VER 3 0000000001000003 "mount" "134400"
+/cast Winged Steed of the Ebon Blade
+/cast Swift Purple Hawkstrider
+END
+VER 3 000000000100000E "mouseover int" "134400"
+#showtooltip
+/cast [@mouseover] Mind Freeze
+END
+VER 3 000000000100000D "mouseover taunt" "134400"
+#showtooltip
+/cast [@mouseover] Dark Command
+END
+VER 3 000000000100000B "oh shit" "134400"
+/use Royal Seal of King Llane
+/use Figurine - Monarch Crab
+END
+VER 3 0000000001000002 "start" "134400"
+#showtooltip Heart Strike
+/startattack
+/cast Heart Strike
+END
+VER 3 0000000001000005 "start frost" "134400"
+/startattack
+/cast Blood Strike
+END
+VER 3 0000000001000007 "start rune" "134400"
+#showtooltip
+/startattack
+/cast Rune Strike
+END
+VER 3 0000000001000008 "switch stance" "134400"
+/cast [stance:1] Frost Presence
+/cast [stance:2] Blood Presence
+/cast [nostance] Blood Presence
+END
+VER 3 0000000001000009 "taunt" "134400"
+#showtooltip Dark Command
+/cast [harm,nodead,stance:1/3] Frost Presence
+/cast Dark Command
+END
+VER 3 0000000001000010 "uf" "134400"
+/cast [target=Algoroth] Unholy Frenzy
+END

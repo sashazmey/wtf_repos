@@ -1,0 +1,11 @@
+Blizzard_CompactRaidFrames: enabled
+Blizzard_CombatText: enabled
+WeakAurasCompanion: enabled
+WeakAurasArchive: enabled
+Details: disabled
+Gladdy: disabled
+Gladius: disabled
+wgReminder: disabled
+TotemTimers: disabled
+Questie: disabled
+MoveAny: disabled

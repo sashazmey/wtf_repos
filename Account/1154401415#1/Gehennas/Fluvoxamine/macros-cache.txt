@@ -1,0 +1,16 @@
+VER 3 0000000001000002 "1" "134400"
+/dismount
+/petattack
+END
+VER 3 0000000001000003 "1" "136210"
+/use [@player] Minor Soulstone
+/cast Create Soulstone()
+END
+VER 3 0000000001000005 "peta" "134400"
+/petattack
+/cast Immolate
+END
+VER 3 0000000001000004 "st" "134400"
+/use Lesser Healthstone
+/cast Create Healthstone()
+END

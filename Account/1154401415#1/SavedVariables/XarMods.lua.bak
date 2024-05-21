@@ -1,0 +1,17 @@
+
+XarModsDB = {
+	["profileKeys"] = {
+		["Гьёсса - Пламегор"] = "Default",
+		["Поливалента - Пламегор"] = "Default",
+		["Fluvoxamine - Gehennas"] = "Default",
+		["Combatlion - Gehennas"] = "Default",
+		["Partysun - Gehennas"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["minimap"] = {
+				["minimapPos"] = 356.7876870819778,
+			},
+		},
+	},
+}

@@ -1,0 +1,139 @@
+VER 3 0000000000000005 "))" "INV_MISC_QUESTIONMARK"
+#showtooltip Polymorph
+/cast [@mouseover] Polymorph
+END
+VER 3 0000000000000015 "1" "134400"
+/cast Vanish(Rank 3)
+/cancelaura vanish
+/cancelaura Stealth
+END
+VER 3 0000000000000006 "?" "INV_MISC_QUESTIONMARK"
+/run for i=1,GetNumQuestLogEntries() do SelectQuestLogEntry(i); SetAbandonQuest(); if GetAbandonQuestName(i) =="What Is Going On?" then AbandonQuest(); end end
+END
+VER 3 000000000000001E "arena1" "134400"
+/target [@arena1]
+/focus [@arena2]
+END
+VER 3 000000000000001F "arena2" "134400"
+/target [@arena2]
+/focus [@arena1]
+END
+VER 3 000000000000001C "b2" "134400"
+#showtooltip Icy Veins
+/use 10
+/use 14
+/cast Icy Veins
+END
+VER 3 000000000000000E "bonb" "134400"
+#showtooltip Living Bomb
+/cast [@mouseover] Living Bomb
+END
+VER 3 0000000000000001 "camera" "INV_MISC_QUESTIONMARK"
+/console cameraDistanceMaxZoomFactor 4
+END
+VER 3 0000000000000003 "da" "INV_MISC_QUESTIONMARK"
+#showtooltip Counterspell
+/stopcasting
+/cast Counterspell
+END
+VER 3 0000000000000011 "debug" "134400"
+/tinspect
+END
+VER 3 000000000000001A "dec" "134400"
+/cast [@party1] Remove Curse
+END
+VER 3 0000000000000016 "Decursive" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast [@mouseover,nomod,exists] Remove Curse;  [@mouseover,exists,mod:ctrl] Will of the Forsaken; [@mouseover,exists,mod:shift] Remove Curse
+END
+VER 3 0000000000000008 "dis" "132123"
+/tsm destroy
+END
+VER 3 000000000000000B "elem" "134400"
+#showtooltip 
+/cast [pet] Freeze
+/cast [nopet] Summon Water Elemental
+END
+VER 3 0000000000000020 "flow foc" "134400"
+#sjowtooltip
+/cast [@focus] Frostbolt(Rank 1)
+END
+VER 3 000000000000001D "fm1" "134400"
+/cast [@party1] Focus Magic
+END
+VER 3 0000000000000004 "ib" "INV_MISC_QUESTIONMARK"
+#showtooltip Ice Block
+/cancelaura Ice Block
+/cast Ice Block
+END
+VER 3 0000000000000014 "inv" "134400"
+/inv Combatlion
+END
+VER 3 0000000000000002 "key up/down" "INV_MISC_QUESTIONMARK"
+/run SetCVar('ActionButtonUseKeyDown', 0)
+END
+VER 3 000000000000000A "mount" "134400"
+/cast Magnificent Flying Carpet
+/cast Red Skeletal Warhorse
+END
+VER 3 000000000000001B "petattack" "134400"
+#showtooltip
+/petattack
+/cast Frostbolt
+END
+VER 3 0000000000000021 "poly" "134400"
+/cast Polymorph
+/petfollow
+END
+VER 3 0000000000000012 "poly foc" "134400"
+/cast [@focus] Polymorph
+/petfollow
+END
+VER 3 0000000000000010 "re" "134400"
+/reload
+END
+VER 3 0000000000000013 "remove" "134400"
+/cancelaura Prayer of Fortitude
+/cancelaura Fortitude
+/cancelaura Commanding Shout
+END
+VER 3 000000000000000D "RXPTargeting" "Ability_eyeoftheowl"
+/targetexact Captain Hartford
+/targetexact Captain Welsington
+/targetlasttarget [dead]
+END
+VER 3 0000000000000018 "sap1" "134400"
+#showtooltip
+/cast [@arena1, exists] Sap
+/cast [@target, exists] Sap
+/cast Sap
+END
+VER 3 0000000000000019 "sap2" "134400"
+#showtooltip
+/cast [@arena2, exists] Sap
+END
+VER 3 0000000000000017 "st" "134400"
+/cast [nostealth] Stealth
+/cast [stealth] Sap
+END
+VER 3 0000000000000009 "start" "INV_MISC_QUESTIONMARK"
+/startattack
+END
+VER 3 000000000000000F "TSMMacro" "INV_Misc_Flower_01"
+/click TSMCancelAuctionBtn
+/click TSMVendoringSellAllButton
+/click TSMShoppingBuyoutBtn
+/click TSMSniperBtn
+/click TSMCraftingBtn
+/click TSMAuctioningBtn
+/click TSMDestroyBtn
+END
+VER 3 0000000000000007 "беньгс" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast combustion
+/use 10
+/use 14
+/use 13
+/cast Mirror Image
+/cqs
+END

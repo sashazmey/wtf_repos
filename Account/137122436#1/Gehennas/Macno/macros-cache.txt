@@ -1,0 +1,73 @@
+VER 3 0000000001000011 "1" "132303"
+/cast [@focus] Shadowstep
+/cast [@focus] Kick
+END
+VER 3 0000000001000019 "1" "134400"
+/cast Bronze Drake
+/cast Purple Skeletal Warhorse
+END
+VER 3 0000000001000012 "amb" "134400"
+#show Ambush()
+/cast Premeditation
+/cast Ambush(Rank 10)
+END
+VER 3 0000000001000008 "blind" "134400"
+/cast [@focus] Blind
+END
+VER 3 0000000001000014 "cs" "134400"
+#show Cheap Shot
+/cast Premeditation
+/cast Cheap Shot
+END
+VER 3 000000000100000E "dis" "134400"
+#show
+/cast [@focus] Dismantle
+END
+VER 3 0000000001000009 "dt" "134400"
+#showtooltip
+/cast Deadly Throw(Rank 3)
+/cast Throw
+END
+VER 3 0000000001000010 "fg" "134400"
+/cast [@focus] Gouge
+END
+VER 3 000000000100000B "fsap" "132310"
+/cast [@focus] Sap
+END
+VER 3 0000000001000013 "g" "134400"
+#show Garrote(Rank 10)
+/cast Premeditation
+/cast Garrote(Rank 10)
+END
+VER 3 0000000001000017 "inv" "134400"
+/stopattack
+/cast Stealth
+END
+VER 3 0000000001000007 "kf" "134400"
+/cast [@focus] Kick
+END
+VER 3 0000000001000015 "M" "132304"
+/startattack
+/cast Mutilate(Rank 6)
+END
+VER 3 0000000001000018 "pve" "236283"
+/cast [@combatlion] Tricks of the Trade
+END
+VER 3 000000000100000F "sap" "134400"
+/cleartarget
+/targetenemyplayer
+/cast Sap(Rank 4)
+END
+VER 3 000000000100000D "start2" "134400"
+#showtooltip
+/startattack
+/cast Backstab(Rank 12)
+END
+VER 3 000000000100000C "tot" "134400"
+/cast [@party1] Tricks of the Trade
+END
+VER 3 0000000001000016 "van" "134400"
+/stopattack
+/cast Vanish(Rank 3)
+/stopattack
+END

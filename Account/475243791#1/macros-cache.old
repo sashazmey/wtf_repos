@@ -1,0 +1,9 @@
+VER 3 0000000000000005 "4" "132091"
+/4 ГЧГ нид ТАНК. самон ЕСТЬ
+END
+VER 3 0000000000000002 "petattack" "132129"
+/petattack
+END
+VER 3 0000000000000009 "RXPTargeting" "Ability_eyeoftheowl"
+//RestedXP Guides - current step has no configured targets
+END

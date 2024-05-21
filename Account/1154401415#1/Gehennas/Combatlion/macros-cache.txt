@@ -1,0 +1,74 @@
+VER 3 0000000001000001 "1" "134400"
+/startattack
+/cast Hammer of the Righteous
+END
+VER 3 0000000001000017 "dis party" "134400"
+#showtooltip
+/cast [@party1] Cleanse
+END
+VER 3 000000000100001F "dsca" "134400"
+#showtooltip Divine Sacrifice
+/cancelaura Divine Sacrifice
+/cast Divine Sacrifice
+END
+VER 3 000000000100001D "flast party " "134400"
+#showtooltip
+/cast [@party1] Flash of Light
+END
+VER 3 0000000001000019 "freedom party" "134400"
+#showtooltip
+/cast [@party1] Hand of Freedom
+END
+VER 3 0000000001000013 "j1" "134400"
+#showtooltip
+/startattack [nomod]
+/cast [nomod] Judgement of Light
+/cast [mod:alt] [@player] Flash of Light 
+END
+VER 3 0000000001000014 "j2" "134400"
+#showtooltip
+/startattack 
+/cast Judgement of Wisdom
+END
+VER 3 0000000001000015 "j3" "134400"
+#showtooltip
+/startattack 
+/cast Judgement of Justice
+END
+VER 3 000000000100001E "lol" "134400"
+/cast Holy Shield(Rank 6)
+/cast Shield of Righteousness(Rank 2)
+END
+VER 3 0000000001000010 "m" "134400"
+/cast Blue Wind Rider
+/cast Summon Charger
+END
+VER 3 0000000001000016 "rep foc" "134400"
+#showtooltip
+/cast [@focus] Repentance
+END
+VER 3 000000000100001B "sac party" "134400"
+#showtooltip
+/cast [@party1] Hand of Sacrifice
+END
+VER 3 000000000100001C "sac sh party" "134400"
+#showtooltip
+/cast [@party1] Sacred Shield
+END
+VER 3 000000000100001A "salv self" "134400"
+/cast [@player] Hand of Salvation
+END
+VER 3 0000000001000006 "sema 3" "132092"
+/sem 30 30 30
+END
+VER 3 0000000001000004 "sema ini" "132095"
+/sem 205 210 220
+END
+VER 3 0000000001000012 "shield attack" "134400"
+#showtooltip
+/startattack
+/cast Shield of Righteousness
+END
+VER 3 0000000001000018 "stun focus" "134400"
+/cast [@focus] Hammer of Justice(Rank 4)
+END

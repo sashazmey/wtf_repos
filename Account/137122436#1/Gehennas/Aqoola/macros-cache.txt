@@ -1,0 +1,40 @@
+VER 3 0000000001000003 "123" "134400"
+/kiss
+END
+VER 3 0000000001000002 "asd" "135833"
+/reload
+END
+VER 3 000000000100000A "assist" "134400"
+/assist [@party1]
+END
+VER 3 0000000001000006 "b" "134400"
+#showtooltip Bear Form
+/cast !Bear Form
+END
+VER 3 0000000001000007 "cf" "134400"
+/cancelform
+END
+VER 3 000000000100000C "cle" "134400"
+/cleartarget
+END
+VER 3 0000000001000004 "decurse" "134400"
+/cast [@mouseover] Remove Curse
+END
+VER 3 000000000100000D "follow" "134400"
+/follow
+END
+VER 3 0000000001000001 "lf guild" "132102"
+/1 Mage LF PVE Guild. Interested in dungeons / raids / rep farming. No good gear so far (SF tailor/enchanter almost capped)
+END
+VER 3 0000000001000008 "re" "134400"
+/reload
+END
+VER 3 0000000001000009 "sem1" "134400"
+/sem 127 0 0
+END
+VER 3 000000000100000B "tar party 1" "134400"
+/target [@party1]
+END
+VER 3 0000000001000005 "zxc" "135747"
+/click StaticPopup1Button1
+END

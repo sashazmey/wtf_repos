@@ -1,0 +1,18 @@
+
+Gladius2DB = {
+	["profileKeys"] = {
+		["Partysun - Gehennas"] = "Partysun - Gehennas",
+	},
+	["profiles"] = {
+		["Partysun - Gehennas"] = {
+			["tagsVersion"] = 4,
+			["auraVersion"] = 1,
+			["y"] = {
+				["arena1"] = 605.0890891952222,
+			},
+			["x"] = {
+				["arena1"] = 1044.445028483999,
+			},
+		},
+	},
+}

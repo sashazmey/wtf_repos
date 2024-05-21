@@ -1,0 +1,72 @@
+VER 3 0000000001000006 "bh" "134400"
+#showtooltip
+/cast [@party1] Binding Heal
+END
+VER 3 000000000100000D "buff" "134400"
+/cast [@party1] Divine Spirit(Rank 6)
+END
+VER 3 000000000100000E "buff2" "134400"
+/cast [@party1] Power Word: Fortitude(Rank 8)
+END
+VER 3 000000000100000F "buff3" "134400"
+/cast [@party1] Shadow Protection(Rank 5)
+END
+VER 3 0000000001000012 "dis fic" "134400"
+/cast [@focus] Psychic Horror
+END
+VER 3 0000000001000001 "fade" "136200"
+/cast [nostance] Shadowform
+/cast [stance] Fade
+END
+VER 3 0000000001000002 "fh" "134400"
+#showtooltip
+/cast [nomod, @party1] Flash Heal
+/cast [mod:alt, @player] Flash Heal
+END
+VER 3 000000000100000C "fiendattack" "134400"
+#showtooltip
+/cast Shadowfiend
+/petattack
+END
+VER 3 0000000001000007 "md" "134400"
+/cast [@cursor] Mass Dispel
+END
+VER 3 000000000100000B "pain and rocket" "134400"
+/cast Shadow Word: Pain(Rank 12)
+/use 10
+END
+VER 3 0000000001000005 "penance" "134400"
+#showtooltip
+/cast [nomod, @party1] Penance
+/cast [mod:alt, @player] Penance
+END
+VER 3 0000000001000010 "pl ricket" "134400"
+/cast Devouring Plague(Rank 9)
+/use 10
+END
+VER 3 0000000001000004 "pom" "134400"
+#showtooltip
+/cast [nomod, @party1] Prayer of Mending
+/cast [mod:alt, @player] Prayer of Mending
+END
+VER 3 0000000001000009 "ps" "134400"
+#showtooltip
+/cast [nomod, @party1] Pain Suppression
+/cast [mod:alt, @player]Pain Suppression
+END
+VER 3 0000000001000003 "renew" "134400"
+#showtooltip
+/cast [nomod, @party1] Renew
+/cast [mod:alt, @player] Renew
+END
+VER 3 0000000001000011 "silefoc" "134400"
+/cast [@focus] Silence
+END
+VER 3 0000000001000008 "sr" "134400"
+/cast [@player] Power Word: Shield
+END
+VER 3 000000000100000A "try assis" "134400"
+#showtooltip
+/assist [noharm]
+/cast Holy Fire
+END

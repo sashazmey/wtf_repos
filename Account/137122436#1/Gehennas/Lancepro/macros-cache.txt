@@ -1,0 +1,69 @@
+VER 3 0000000001000003 "123" "134400"
+/kiss
+END
+VER 3 0000000001000010 "arm" "134400"
+/castsequence Ice Armor(Rank 6),Mage Armor(Rank 6)
+END
+VER 3 0000000001000002 "asd" "135833"
+/reload
+END
+VER 3 0000000001000009 "check" "132092"
+/mrt check
+END
+VER 3 0000000001000004 "decurse" "134400"
+/cast [@mouseover] Remove Curse
+END
+VER 3 0000000001000007 "details show" "136056"
+/details toggle
+END
+VER 3 0000000001000012 "fb" "134400"
+#showtooltip
+/cast [mod:alt] Frostbolt(Rank 1)
+/cast Frostbolt(Rank 16)
+END
+VER 3 0000000001000013 "fd" "236214"
+/cast [@focus] Deep Freeze
+END
+VER 3 0000000001000006 "focus interrupt" "134400"
+#showtooltip Counterspell
+/stopcasting
+/cast [@focus] Counterspell
+END
+VER 3 000000000100000A "lance or die" "134400"
+#showtooltip
+/tar Mirror Image
+/creartarget [dead]
+/cast [@target, nodead] Ice Lance
+END
+VER 3 0000000001000008 "lb" "134400"
+END
+VER 3 0000000001000001 "lf guild" "132102"
+/1 Mage LF PVE Guild. Interested in dungeons / raids / rep farming. No good gear so far (SF tailor/enchanter almost capped)
+END
+VER 3 000000000100000D "pot speed" "134400"
+#showtooltip
+/cast Potion of Speed
+/cast fireball
+/cqs
+END
+VER 3 000000000100000C "pot wild magic" "134400"
+#showtooltip
+/cast Potion of Wild Magic
+/cast fireball
+/cqs
+END
+VER 3 000000000100000E "PREFIRE" "134400"
+#showtooltip
+/cast Potion of Wild Magic
+/cast pyroblast
+/cqs
+END
+VER 3 000000000100000F "tar blaz" "134400"
+/targetexact Blazing Skeleton
+END
+VER 3 000000000100000B "VB" "135833"
+/cast Vampiric Bite
+END
+VER 3 0000000001000005 "zxc" "135747"
+/click StaticPopup1Button1
+END

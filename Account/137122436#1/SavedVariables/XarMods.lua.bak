@@ -1,0 +1,37 @@
+
+XarModsDB = {
+	["profileKeys"] = {
+		["Macno - Gehennas"] = "Default",
+		["Lancepro - Gehennas"] = "Default",
+		["Combatwolf - Gehennas"] = "Default",
+		["Bomjman - Gehennas"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["ActionBars"] = {
+				["hideGryphons"] = true,
+			},
+			["UnitFrames"] = {
+				["classColorsPlayer"] = true,
+				["hideFeedbackText"] = true,
+				["classColoredNamePlate"] = true,
+				["chainStyle"] = 3,
+				["combatIndicator"] = true,
+				["hidePvpIcons"] = true,
+				["classColorsOthers"] = true,
+			},
+			["minimap"] = {
+				["minimapPos"] = 329.6730254726206,
+			},
+			["Interface"] = {
+				["repair"] = true,
+				["hideUIErrorsFrame"] = true,
+				["hideZoom"] = true,
+				["hideEffects"] = true,
+				["scrollZoom"] = true,
+				["hideGlow"] = true,
+				["sellGrays"] = true,
+			},
+		},
+	},
+}

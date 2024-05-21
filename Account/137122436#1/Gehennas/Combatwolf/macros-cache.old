@@ -1,0 +1,60 @@
+VER 3 0000000001000002 "12" "134400"
+#showtooltip Feral Spirit
+/cast Blood Fury(Racial)
+/cast Feral Spirit
+/cast spirit walk
+END
+VER 3 000000000100000B "b" "132114"
+/cast bash
+END
+VER 3 0000000001000013 "ch" "134400"
+END
+VER 3 000000000100000D "f" "134400"
+/cast [@focus] Frost Shock(Rank 7)
+END
+VER 3 0000000001000006 "f" "134400"
+/cast [@focus] Wind Shear
+END
+VER 3 0000000001000015 "fcleance" "134400"
+/cast [party1] Cure Toxins
+END
+VER 3 0000000001000007 "fd" "134400"
+/cast [@focus] Purge(Rank 2)
+END
+VER 3 0000000001000011 "fh" "134400"
+/cast [@focus] Hex
+END
+VER 3 0000000001000014 "fheal" "136043"
+/cast [@party1] Lesser Healing Wave(Rank 9)
+END
+VER 3 0000000001000012 "heal" "135769"
+/use Fel Healthstone
+/use Runic Healing Potion
+END
+VER 3 0000000001000003 "mount" "134400"
+/cast Green Wind Rider
+/cast Swift Gray Wolf
+END
+VER 3 0000000001000010 "nova" "134400"
+#show Fire Nova(Rank 9)
+/castsequence reset=10 Searing Totem(Rank 10), Fire Nova(Rank 9)
+END
+VER 3 0000000001000004 "pve" "134400"
+/castsequence Windfury Weapon(Rank 8), Flametongue Weapon(Rank 10)
+END
+VER 3 0000000001000005 "pvp" "134400"
+/castsequence Windfury Weapon(Rank 8), Frostbrand Weapon(Rank 9)
+END
+VER 3 000000000100000F "stoneclaw" "136097"
+#showtooltip Stoneclaw Totem(Rank 10)
+/castsequence reset=20 Stoneclaw Totem(Rank 10), Strength of Earth Totem(Rank 8), Strength of Earth Totem(Rank 8), Strength of Earth Totem(Rank 8), Strength of Earth Totem(Rank 8)
+END
+VER 3 000000000100000E "w" "134400"
+#show Grounding Totem
+/castsequence reset=15 Grounding Totem, Windfury Totem, Windfury Totem, Windfury Totem, Windfury Totem, Windfury Totem
+END
+VER 3 0000000001000009 "ww" "134400"
+/cast Stormstrike
+/petattack
+/startattack
+END

@@ -1,0 +1,58 @@
+
+RXPCData = {
+	["completedWaypoints"] = {
+	},
+	["currentStep"] = 1,
+	["questObjectivesCache"] = {
+		[0] = 0,
+	},
+	["currentGuideGroup"] = "",
+	["flightPaths"] = {
+	},
+	["questNameCache"] = {
+	},
+	["currentGuideName"] = "",
+	["stepSkip"] = {
+	},
+}
+RXPCTrackingData = {
+	["profileKeys"] = {
+		["Гьёсса - Пламегор"] = "Гьёсса - Пламегор",
+	},
+	["profiles"] = {
+		["Гьёсса - Пламегор"] = {
+			["levels"] = {
+				{
+					["groupExperience"] = 0,
+					["deaths"] = 0,
+					["mobs"] = {
+					},
+					["timestamp"] = {
+						["dateStarted"] = {
+							["monthDay"] = 4,
+							["day"] = 0,
+							["month"] = 11,
+							["weekday"] = 7,
+							["year"] = 2023,
+							["hour"] = 18,
+							["minute"] = 45,
+						},
+						["started"] = 0,
+					},
+					["quests"] = {
+					},
+				}, -- [1]
+			},
+		},
+	},
+}
+RXPCComms = {
+	["profileKeys"] = {
+		["Гьёсса - Пламегор"] = "Гьёсса - Пламегор",
+	},
+	["profiles"] = {
+		["Гьёсса - Пламегор"] = {
+		},
+	},
+}
+RXPCSettings = nil

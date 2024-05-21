@@ -1,0 +1,19 @@
+
+BigDebuffsDB = {
+	["profileKeys"] = {
+		["Macno - Gehennas"] = "Default",
+		["Gasenol - Gehennas"] = "Default",
+		["Aqoola - Gehennas"] = "Default",
+		["Bomjman - Gehennas"] = "Default",
+		["Combatwolf - Gehennas"] = "Default",
+		["Lancepro - Gehennas"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["unitFrames"] = {
+				["arena1"] = {
+				},
+			},
+		},
+	},
+}

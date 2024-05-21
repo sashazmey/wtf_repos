@@ -1,0 +1,124 @@
+VER 3 0000000000000013 "11" "134400"
+/cast Swift Purple Wind Rider
+/cast Green Skeletal Warhorse
+END
+VER 3 000000000000001B "ad" "134400"
+/cast [@party1] Abolish Disease
+END
+VER 3 000000000000001D "ads" "134400"
+/cast [@player] Abolish Disease
+END
+VER 3 000000000000000B "arena1" "134400"
+/target [@arena1]
+/focus [@arena2]
+END
+VER 3 000000000000000C "arena2" "134400"
+/target [@arena2]
+/focus [@arena1]
+END
+VER 3 0000000000000018 "bop p1" "134400"
+/cast [@party1] Hand of Protection(Rank 3)
+END
+VER 3 0000000000000017 "Decursive" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast [@mouseover,nomod,exists] Fear;  [@mouseover,exists,mod:ctrl] Fear; [@mouseover,exists,mod:shift] Fear
+END
+VER 3 0000000000000002 "dis" "134400"
+#showtooltip
+/cast [@party1] Dispel Magic(Rank 2)
+END
+VER 3 000000000000001A "fd" "134400"
+/cast [@focus] dispel magic()
+END
+VER 3 000000000000001F "fs" "134400"
+/cast [@party1] Power Word: Shield(Rank 14)
+END
+VER 3 0000000000000016 "gloves" "134400"
+#showtooltip
+/use 10
+END
+VER 3 0000000000000010 "heal" "134400"
+/cast Desperate Prayer(Rank 9)
+/cast Lifeblood(Rank 6)
+END
+VER 3 0000000000000008 "launch" "134400"
+/use 10
+/cast Holy Fire
+END
+VER 3 0000000000000021 "manup" "134400"
+/castsequence Inner Focus, Divine Hymn(Rank 1)
+END
+VER 3 0000000000000003 "mount" "134400"
+/cast Swift Purple Wind Rider
+/cast Green Skeletal Warhorse
+END
+VER 3 0000000000000007 "pi self" "134400"
+#showtooltip
+/cast [@player] Power Infusion
+/use 10
+/use Meteorite Crystal
+END
+VER 3 0000000000000020 "pif" "134400"
+/cast [@party1]  Power Infusion
+END
+VER 3 000000000000001E "ps" "134400"
+/cast [@player] Pain Suppression
+END
+VER 3 0000000000000011 "pv" "134400"
+/equip Relentless Gladiator's Blade of Alacrity
+/equip Furious Gladiator's Reprieve
+END
+VER 3 0000000000000001 "RXPTargeting" "Ability_eyeoftheowl"
+//RestedXP Guides - current step has no configured targets
+END
+VER 3 0000000000000015 "schacle" "134400"
+#showtooltip Shackle Undead
+/targetexact [exists,harm] Ebon Gargoyle
+/stopmacro [noexists]
+/cast [@target,harm] Shackle Undead
+/targetlasttarget
+END
+VER 3 0000000000000012 "schcacke" "134400"
+#showtooltip Turn Evil
+/targetexact [exists,harm] Ebon Gargoyle
+/stopmacro [noexists]
+/cast [@target,harm] Turn Evil
+/cast [@arenapet1,exists] Turn Evil
+/cast [@arenapet2,exists] Turn Evil
+/targetlasttarget
+END
+VER 3 0000000000000019 "sd" "134400"
+/cast [@player] dispel magic()
+END
+VER 3 0000000000000014 "shoot" "134400"
+/cast !Shoot
+END
+VER 3 000000000000000E "st" "134400"
+/startattack
+END
+VER 3 000000000000000A "tar tt" "134400"
+/target Tremor Totem
+END
+VER 3 0000000000000006 "TSMMacro" "INV_Misc_Flower_01"
+/click TSMCancelAuctionBtn
+/click TSMVendoringSellAllButton
+/click TSMShoppingBuyoutBtn
+/click TSMSniperBtn
+/click TSMCraftingBtn
+/click TSMAuctioningBtn
+/click TSMDestroyBtn
+/click TSMBidBuyConfirmBtn
+END
+VER 3 000000000000000F "ward field" "134400"
+/cast [target=Shadowfiend] Fear Ward
+END
+VER 3 0000000000000009 "x" "134400"
+/cast  [harm, nodead] Shadow Word: Death
+/stopmacro [harm, nodead]
+/cleartarget
+/targetenemyplayer
+/cast Shadow Word: Death(Rank 4)
+END
+VER 3 000000000000001C "ZZ" "134400"
+/cast [@party1] Pain Suppression
+END

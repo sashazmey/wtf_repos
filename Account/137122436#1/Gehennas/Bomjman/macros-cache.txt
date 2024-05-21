@@ -1,0 +1,9 @@
+VER 3 0000000001000001 "1" "134400"
+/cast Hunter's Mark()
+/startattack
+/petattack
+END
+VER 3 0000000001000003 "sl" "134400"
+/cast Wing Clip
+/cast Concussive Shot
+END

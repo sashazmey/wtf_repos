@@ -1,0 +1,46 @@
+VER 3 0000000001000008 "/tm 8" "132293"
+/tm 8
+END
+VER 3 0000000001000009 "1" "INV_MISC_QUESTIONMARK"
+/use 13
+END
+VER 3 0000000001000002 "11" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [stealth]Наскок()
+/cast [nocombat] !Крадущийся зверь()
+/закл [combat]!Облик кошки(Смена облика)
+END
+VER 3 000000000100000A "2" "INV_MISC_QUESTIONMARK"
+/use 14
+END
+VER 3 000000000100000B "cc" "INV_MISC_QUESTIONMARK"
+/cast [target=focus] смерч
+END
+VER 3 0000000001000007 "F" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/CAST Волшебный огонь (сила зверя)()
+/STARTATTACK
+END
+VER 3 000000000100000C "root" "INV_MISC_QUESTIONMARK"
+/cast [target=focus] Гнев деревьев(7-й уровень)
+END
+VER 3 0000000001000004 "rs" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [swimming] Водный облик
+/cast [flyable, nocombat] !Облик птицы(Смена облика)
+/cast Походный облик(Смена облика)
+END
+VER 3 0000000001000005 "sprinto" "INV_MISC_QUESTIONMARK"
+#showtooltip порыв
+/cast [nostance:3] !Облик кошки(Смена облика)
+/cast [stance:3] Порыв()
+END
+VER 3 0000000001000001 "unform" "132132"
+/cancelform
+/cast Огромный белый кодо
+END
+VER 3 0000000001000003 "стаб" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nostealth] Полоснуть()
+/cast [stealth] Накинуться()
+END

@@ -1,0 +1,182 @@
+
+GladiusExDB = {
+	["namespaces"] = {
+		["party_CastBar"] = {
+		},
+		["Highlight"] = {
+		},
+		["party_Alerts"] = {
+		},
+		["party_HealthBar"] = {
+		},
+		["party_ClassIcon"] = {
+		},
+		["party_Highlight"] = {
+		},
+		["party_DRTracker"] = {
+			["profiles"] = {
+				["Default"] = {
+					["drTrackerCooldown"] = false,
+				},
+			},
+		},
+		["DRTracker"] = {
+			["profiles"] = {
+				["Default"] = {
+					["drTrackerAdjustSize"] = true,
+					["drCategories"] = {
+						["incapacitate"] = false,
+						["random_stun"] = false,
+						["root"] = false,
+						["horror"] = false,
+						["disarm"] = false,
+						["mind_control"] = false,
+						["stun"] = true,
+						["random_root"] = false,
+						["counterattack"] = false,
+						["silence"] = false,
+						["scatter"] = false,
+						["charge"] = false,
+						["cyclone"] = false,
+					},
+				},
+			},
+		},
+		["party_PowerBar"] = {
+		},
+		["SkillHistory"] = {
+		},
+		["party_TargetBar"] = {
+		},
+		["Cooldowns"] = {
+			["profiles"] = {
+				["Default"] = {
+					["groups"] = {
+						["group_1"] = {
+							["cooldownsSpells"] = {
+								[42292] = true,
+							},
+						},
+					},
+				},
+			},
+		},
+		["arena"] = {
+			["profiles"] = {
+				["Default"] = {
+					["modules"] = {
+						["SkillHistory"] = false,
+						["Announcements"] = false,
+						["Highlight"] = false,
+						["PowerBar"] = false,
+					},
+					["y"] = {
+						["arena2"] = 489.838939660418,
+						["arena4"] = 410.0943220219524,
+						["anchor_arena"] = 510.0889940556153,
+						["arena5"] = 307.4943247399242,
+						["arena3"] = 512.6943467698002,
+						["arena1"] = 592.4389918740853,
+					},
+					["x"] = {
+						["arena2"] = 1033.355648894954,
+						["arena4"] = 1095.710749782171,
+						["anchor_arena"] = 1033.355648894954,
+						["arena5"] = 1095.710749782171,
+						["arena3"] = 1095.710749782171,
+						["arena1"] = 1033.355648894954,
+					},
+				},
+			},
+		},
+		["Auras"] = {
+		},
+		["CastBar"] = {
+			["profiles"] = {
+				["Default"] = {
+					["castBarPosition"] = "BOTTOM",
+					["castBarAttachMode"] = "InFrame",
+				},
+			},
+		},
+		["party"] = {
+			["profiles"] = {
+				["Default"] = {
+					["y"] = {
+						["player"] = 586.2946133747464,
+						["party2"] = 511.4001573509595,
+						["anchor_party"] = 526.44461496023,
+						["party4"] = 351.200243992269,
+						["party3"] = 431.3001869387044,
+						["party1"] = 506.1946154966718,
+					},
+					["x"] = {
+						["player"] = 268.8666707339107,
+						["party2"] = 199.8891350245704,
+						["anchor_party"] = 193.2666315378974,
+						["party4"] = 199.8891350245704,
+						["party3"] = 199.8891350245704,
+						["party1"] = 268.8666707339107,
+					},
+				},
+			},
+		},
+		["party_SkillHistory"] = {
+		},
+		["PowerBar"] = {
+		},
+		["Interrupts"] = {
+		},
+		["party_Announcements"] = {
+		},
+		["HealthBar"] = {
+		},
+		["party_PetBar"] = {
+		},
+		["PetBar"] = {
+		},
+		["party_Cooldowns"] = {
+		},
+		["party_Clicks"] = {
+		},
+		["party_Interrupts"] = {
+		},
+		["Announcements"] = {
+			["profiles"] = {
+				["Default"] = {
+					["resurrect"] = false,
+					["spec"] = false,
+					["health"] = false,
+					["drinks"] = false,
+				},
+			},
+		},
+		["Alerts"] = {
+		},
+		["TargetBar"] = {
+		},
+		["party_Tags"] = {
+		},
+		["party_Auras"] = {
+		},
+		["Tags"] = {
+		},
+		["Clicks"] = {
+		},
+		["ClassIcon"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Macno - Gehennas"] = "Default",
+		["Combatwolf - Gehennas"] = "Default",
+		["Lancepro - Gehennas"] = "Default",
+		["Bomjman - Gehennas"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["globalFontSize"] = 10,
+			["locked"] = true,
+			["hideSelf"] = true,
+		},
+	},
+}

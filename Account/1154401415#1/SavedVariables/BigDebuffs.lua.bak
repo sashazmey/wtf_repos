@@ -1,0 +1,19 @@
+
+BigDebuffsDB = {
+	["profileKeys"] = {
+		["Combatlion - Gehennas"] = "Default",
+		["Поливалента - Пламегор"] = "Default",
+		["Partysun - Gehennas"] = "Default",
+		["Fluvoxamine - Gehennas"] = "Default",
+		["Адэсса - Пламегор"] = "Default",
+		["Гьёсса - Пламегор"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["unitFrames"] = {
+				["arena1"] = {
+				},
+			},
+		},
+	},
+}
